@@ -4,6 +4,7 @@ import { unionAndItsTerritoryMindMap } from "./unionAndItsTerritoryMindMap";
 import { citizenshipInIndiaMindMap } from "./citizenshipInIndiaMindMap";
 import { directivePrinciplesMindMap } from "./directivePrinciplesMindMap";
 import { parliamentarySystemMindMap } from "./parliamentarySystemMindMap";
+import { municipalitiesIndiaMindMap } from "./MunicipalityMindMap";
 
 export interface Chapter {
   id: string;
@@ -42,5 +43,11 @@ export const chapters: Chapter[] = [
     title: "Parliamentary System",
     subject: "Polity",
     mindMap: parliamentarySystemMindMap,
+  },
+  {
+    id: "municipalities-in-india",
+    title: "Municipalities in India",
+    subject: "Polity",
+    mindMap: municipalitiesIndiaMindMap,
   },
 ];
